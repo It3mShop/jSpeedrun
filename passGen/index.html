@@ -6,14 +6,20 @@
         <h1>Generate a random password</h1>
         <p>Never use an insecure password again</p>
         <br>
-        <button id="generate_button" onclick="generatePasswords()">Generate passowords</button>
-        <label>password length:</label>
-        <input type="number" id="length_el" onchange="lenCha">
+        <div id="inputs">
+
+            <label>Password length: </label>
+            <input type="number" id="length_el">
+            <br>
+            <label>Number of passwords: </label>
+            <input type="number" id="pass_num_el">
+            <br>
+        </div>
+        <button id="generate_button" onclick="generatePasswords()">GENERATE</button>
         <hr>
         <div id="passwords">
             <p id="password1" hidden="true" onclick="savepass(1)"></p>
             <p id="password2" hidden="true" onclick="savepass(2)"></p>
-            <br>
             <p id="password3" hidden="true" onclick="savepass(3)"></p>
             <p id="password4" hidden="true" onclick="savepass(4)"></p>
         </div>

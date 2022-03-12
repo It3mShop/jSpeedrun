@@ -4,16 +4,27 @@ p {
 	padding: 30px;
 	margin: 40px;
 	border-radius: 10px;
+	width: max-content;
+	margin-top: 10;
 
 }
 
+span {
+	color: black;
+	background-color: whitesmoke	;
+}
+
 #passwords {
-	width: min-content;
-	display: flex;
 	border-radius: 10px;
 	background-color: grey;
+	padding: 20px 20px;
+	width: max-content;
+	margin: 0 auto;
 }
 
 body {
 	background-color: #333;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: whitesmoke;
+	text-align: center;
 }

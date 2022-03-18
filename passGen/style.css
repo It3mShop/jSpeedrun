@@ -3,18 +3,21 @@ body, html {
 }
 p {
 	background-color: #000;
-	padding: 30px 30px;
 	/* margin: 40px; */
 	border-radius: 10px;
 	width: 14em;
 	margin: 10px auto;
 	cursor:copy;
+	padding: 30px 30px;
+
 }
 
 #titleish {
 	width: max-content;
 	color: whitesmoke;
 	cursor:auto;
+	padding: 30px 30px;
+
 }
 
 span {
@@ -25,7 +28,7 @@ span {
 #passwords {
 	border-radius: 10px;
 	background-color:#030;
-	padding: 20px 20px;
+	/* padding: 20px 20px; */
 	width: 40em;
 	margin: 0 auto;
 	display: flex;

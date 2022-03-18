@@ -5,13 +5,13 @@ const passwords_el = document.getElementById("passwords")
 
 function generatePasswords() {
     const length = length_el.value
-    const NumberOfPasswords = num_el.value
+    const numberOfPasswords = num_el.value
 
-    for (let num = 1; num <= NumberOfPasswords; ++num) {
+    for (let num = 1; num <= numberOfPasswords; ++num) {
         const password_el = generatePassword(num, length)
         passwords_el.appendChild(password_el)
     }
-    passwords_el.hidden="true"
+    passwords_el.setAttribute("style", "padding: 30px")
 }
 
 function generatePassword(id, len) {

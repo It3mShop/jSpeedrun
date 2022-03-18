@@ -20,8 +20,10 @@ function generatePassword(id, len) {
             cur_pas += chars[ Math.floor( Math.random() * chars.length ) ]
 
     const password = createPassField(id)
-    password.innerText = cur_pas
+    password.textContent = cur_pas
+    password.value = cur_pas
     password.addEventListener("click", () => savepass(id))
+
     return password
         
 }
@@ -33,7 +35,8 @@ function createPassField (id) {
 }
 
 function savepass (id) {
-    let copy = document.getElementById(`password${id}`)
+    let copy = document.getElementById(id)
+    console.log(copy.value)
 
     navigator.clipboard.writeText(copy.value)
     alert(`copied pass num: ${id}`)

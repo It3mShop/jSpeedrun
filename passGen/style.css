@@ -1,30 +1,59 @@
+body, html {
+	margin: 0;
+}
 p {
-	background-color: black;
-	color: whitesmoke;
+	background-color: #000;
 	padding: 30px;
 	margin: 40px;
 	border-radius: 10px;
-	width: max-content;
-	margin-top: 10;
+	width: 16em;
+	margin: 10px auto;
 
+}
+
+#titleish {
+	width: max-content;
+	color: whitesmoke;
 }
 
 span {
 	color: black;
-	background-color: whitesmoke	;
+	background-color: whitesmoke;
 }
 
 #passwords {
 	border-radius: 10px;
 	background-color: grey;
 	padding: 20px 20px;
-	width: max-content;
+	width: 40em;
 	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	color: greenyellow;
+
 }
 
 body {
-	background-color: #333;
+	background-color: black;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	color: whitesmoke;
 	text-align: center;
+}
+header {
+	background-image: linear-gradient(0deg,
+			hsl(0deg 0% 0%) 15%,
+			hsl(120deg 100% 6%) 48%,
+			hsl(120deg 100% 7%) 61%,
+			hsl(120deg 100% 8%) 71%,
+			hsl(120deg 100% 9%) 78%,
+			hsl(120deg 100% 11%) 83%,
+			hsl(120deg 100% 12%) 88%,
+			hsl(126deg 100% 14%) 91%,
+			hsl(131deg 100% 15%) 94%,
+			hsl(136deg 100% 17%) 97%,
+			hsl(140deg 100% 19%) 98%,
+			hsl(142deg 100% 20%) 100%,
+			hsl(145deg 100% 22%) 100%,
+			hsl(144deg 83% 26%) 101%,
+			hsl(140deg 65% 31%) 100%);
 }

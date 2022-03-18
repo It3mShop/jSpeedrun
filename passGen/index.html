@@ -3,9 +3,11 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Generate a random password</h1>
-        <p>Never use an insecure password again</p>
-        <br>
+        <header>
+            <h1>Generate a random password</h1>
+            <p id="titleish">Never use an insecure password again</p>
+            <br>
+        </header>
         <div id="inputs">
 
             <label>Password length: </label>
@@ -18,10 +20,6 @@
         <button id="generate_button" onclick="generatePasswords()">GENERATE</button>
         <hr>
         <div id="passwords">
-            <p id="password1" hidden="true" onclick="savepass(1)"></p>
-            <p id="password2" hidden="true" onclick="savepass(2)"></p>
-            <p id="password3" hidden="true" onclick="savepass(3)"></p>
-            <p id="password4" hidden="true" onclick="savepass(4)"></p>
         </div>
         <script src="index.js"></script>
     </body>
